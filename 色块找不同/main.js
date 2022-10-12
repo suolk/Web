@@ -1,5 +1,5 @@
 var randx, randy, level = 0, success = 0, max;
-var randr, randg, rangb;
+var randr, randg, randb;
 
 function hidStartButton() {//隐藏游戏开始按钮
     document.getElementById("gameStart").style.display = "none";
