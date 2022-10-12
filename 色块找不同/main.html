@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
+    <title>找不同</title>
+</head>
+
+<body class="body">
+    <div align="center">
+        <button id="gameStart" onclick="hidStartButton()" class="button">Game Start</button>
+    </div>
+
+    <div align="center">
+        <form id="level" class="level">
+            请输入游戏难度 ( 数字 1 - 100 ) : <input type="text" id="inputLevel" maxlength="15" name="inputLevel">
+        </form>
+        <text id="txt1" style="display: none; margin-top: 20px;">数字越大游戏越简单</text>
+        <button id="btn1" onclick="checkLevel()" class="button button1">确定</button>
+        <text id="success" style="display: none;margin-top: 20px;">已成功通过 0 关！</text>
+    </div>
+
+    <div align="center">
+        <canvas id="myCanvas" onclick="judge(event)" width="508" height="508" class="canvas">
+        </canvas>
+    </div>
+</body>
+
+</html>

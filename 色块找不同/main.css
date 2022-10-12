@@ -1,0 +1,42 @@
+.button {
+    background-color: lightblue;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(30, 167, 212);
+    color: black;
+}
+
+.button:active {
+    background-color: rgb(66, 177, 214);
+    color: black;
+}
+
+.button1 {
+    display: none;
+}
+
+.body {
+    background-color: lightblue
+}
+
+.canvas {
+    display: none;
+    border: none;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.level {
+    font-size: 20px;
+    margin-top: 50px;
+    display: none;
+}
